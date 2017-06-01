@@ -11,9 +11,3 @@ type AddIn struct {
 type AddOut struct {
 	Sum int
 }
-
-func Must(err error) {
-	if err != nil {
-		panic(err)
-	}
-}
